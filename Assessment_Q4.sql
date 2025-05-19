@@ -3,9 +3,6 @@ Question 4: Customer Lifetime Value
 Estimates CLV based on transaction history
 */
 
-
-
-
 -- CTE to calculate basic customer statistics
 WITH customer_stats AS (
     SELECT 
