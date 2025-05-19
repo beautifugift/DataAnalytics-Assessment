@@ -1,3 +1,9 @@
+/*
+Question 3: Account Inactivity Alert
+Flags accounts with no transactions for over 1 year
+*/
+
+
 SELECT 
     pp.id AS plan_id,
     pp.owner_id,
