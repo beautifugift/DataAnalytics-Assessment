@@ -1,3 +1,10 @@
+/*
+Question 1: High-Value Customers with Multiple Products
+Identifies customers with both savings (is_regular_savings=1) 
+and investment (is_a_fund=1) products
+*/
+
+
 SELECT 
     u.id AS owner_id,
     CONCAT(u.first_name, ' ', u.last_name) AS name,
