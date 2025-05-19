@@ -1,3 +1,10 @@
+
+/*
+Question 2: Transaction Frequency Analysis
+Categorizes customers by monthly transaction frequency
+*/
+
+
 -- First CTE: Calculates monthly transaction counts per user
 WITH monthly_transactions AS (
     SELECT 
